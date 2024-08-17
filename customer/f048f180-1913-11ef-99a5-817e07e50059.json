@@ -1,0 +1,56 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : null,
+    "address" : "4th Floor Singjamei Imphal 795008 India",
+    "address2" : null,
+    "city" : "Imphal",
+    "country" : "India",
+    "customerId" : null,
+    "email" : "frys@nibiaa.com",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f048f180-1913-11ef-99a5-817e07e50059"
+    },
+    "name" : "Frys Restaruant",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : null,
+    "state" : "manipur",
+    "title" : "Frys Restaruant",
+    "zip" : "795008"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f048f180-1913-11ef-99a5-817e07e50059"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "f0539fe0-1913-11ef-99a5-817e07e50059"
+    },
+    "type" : "Owns",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1716529543395,
+      "longValue" : null,
+      "strValue" : "4th Floor Singjamei Imphal 795008 India, Imphal, manipur 795008, India"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "type",
+      "lastUpdateTs" : 1716529543395,
+      "longValue" : null,
+      "strValue" : "retail"
+    } ]
+  }
+}

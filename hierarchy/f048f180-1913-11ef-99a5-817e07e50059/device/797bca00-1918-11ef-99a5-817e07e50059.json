@@ -1,0 +1,106 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f048f180-1913-11ef-99a5-817e07e50059"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "f0406600-1913-11ef-99a5-817e07e50059"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "797bca00-1918-11ef-99a5-817e07e50059"
+    },
+    "label" : "Restricted",
+    "name" : "Door1",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f048f180-1913-11ef-99a5-817e07e50059"
+    },
+    "softwareId" : null,
+    "type" : "Door Sensor"
+  },
+  "credentials" : {
+    "credentialsId" : "5iAmcEpXziLNVWcWPoDW",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f0539fe0-1913-11ef-99a5-817e07e50059"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "797bca00-1918-11ef-99a5-817e07e50059"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1716623257159,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1716623257159,
+      "longValue" : 1716623257159,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1716622631932,
+      "longValue" : 1716622630093,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "state",
+      "lastUpdateTs" : 1716477838243,
+      "longValue" : null,
+      "strValue" : "normal"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.20945157526254377,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1716478428910,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.07141472766442421,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1716478428910,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

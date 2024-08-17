@@ -1,0 +1,106 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f048f180-1913-11ef-99a5-817e07e50059"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "f0460b50-1913-11ef-99a5-817e07e50059"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "912f2430-1918-11ef-99a5-817e07e50059"
+    },
+    "label" : "Chiller1",
+    "name" : "Chiller1",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f048f180-1913-11ef-99a5-817e07e50059"
+    },
+    "softwareId" : null,
+    "type" : "Chiller"
+  },
+  "credentials" : {
+    "credentialsId" : "9CcEPf9vJKn3Yj8HhaxC",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f0539fe0-1913-11ef-99a5-817e07e50059"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "912f2430-1918-11ef-99a5-817e07e50059"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1716715297559,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1716715297559,
+      "longValue" : 1716715297559,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1716714686931,
+      "longValue" : 1716714684214,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "state",
+      "lastUpdateTs" : 1716477878023,
+      "longValue" : null,
+      "strValue" : "normal"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.15694282380396732,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1716478481396,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.17856104574831821,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1716478481396,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
